@@ -1,13 +1,7 @@
 /* SECCION 1 : HOME */
 /* NAVBAR */
-body {
-	padding: 40px 0px;
-}
 .logo{
-	padding-left: 130px;
-}
-a.navbar-brand.logo {
-    padding-left: 165px
+	padding-left: 80px;
 }
 
 .navbar-default {
@@ -16,13 +10,14 @@ a.navbar-brand.logo {
 	background-image:none;
 	box-shadow:none;
 	color:#fff;
+	padding-top: 30px;
 }
 a.navbar-brand.logo {
     color: #fff;
 }
 .navbar-default .navbar-nav>li>a {
-   font-size:15px; 
-   color:#fff; 
+   font-size:15px;
+   color:#fff;
 }
 /* menu search */
 #search {
@@ -100,12 +95,12 @@ a.navbar-brand.logo {
 	background-size:cover;
 	text-align:center;
 	width:100%;
-	height:90vh;
+	height:150vh;
 		h1{
 			color:#fff;
 			font-size: 4.5em;
-			margin-top:100px;
-			font-weight:lighter;
+			margin-top:150px;
+
 		}
 		.btn{
 			color:$white;
@@ -129,7 +124,7 @@ a.navbar-brand.logo {
 
 .sec-2{
 	width:100%;
-	height:100vh;
+	height:120vh;
 	background-color:$pale;
 	.row{
 		padding: 13px;
@@ -190,16 +185,122 @@ a.navbar-brand.logo {
 			background-position:center;
 			background-repeat: no-repeat;
 			background-size:cover;
-			width:100%;
-			height:320px;
+			width: 100%;
+			height: 320px;
+
+		}
+		.our-company{
+			margin-left: 60px;
+		}
+		.btn{
+			padding: 15px 20px;
+			font-size: 15px;
+			margin-top: 40px;
+		}
+}
+/* SECCION 5: */
+.sec-5{
+	.container{
+		&.col{
+		margin: 40px;
+		}
+		p{
+			color:$dark-grey;
+		}
+		.p-title{
+			color: $black;
+			font-size: 20px;
+		}
+	}
+	
+}
+/*
+.col{
+		margin: 40px;
+}
+deberia darle margin a las columnas pero no cachooo
+*/
+/* SECCION 6: TALENTED PEOPLE */
+
+.sec-6{
+	width:100%;
+	height:100vh;
+	background-color:$grey;
+	.photo-people{
+		background:$turquoise;
+		margin: 19px;/* arreglar margen*/
+    border-radius: 3px;
+		& p{
+			color:$white;
+			font-size: 16px;
+			padding: 10px;
+			margin-bottom:0;
+		}
+		
+	}
+}
+/* SECCION 7: GET IN TOUCH */
+
+.sec-7{
+	background: url('../../img/features_bg2-min.jpg');
+	width:100%;
+	height:100vh;
+	color:$white;
+}
+
+ /* SECCION 8: OUR PARTNERS */
+
+
+.sec-8{
+	background: url('../../img/contact2-min.jpg');
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:cover;
+	width: 100%;
+	height:50vh;
+		h1{
+			color:$white;
+		}
+		.logo
+			img{
+				width: 155px;
+				height: 150px;
+				padding-top: 30px;
+			}
+}
+
+/* SECCION 9: FOOTER */
+
+.sec-9{
+	width: 100%;
+	height: 50vh;
+	background: $indigo;
+		h3{
+	color:$purple;
+	}
+		p{
+	color:$white;
+	}
+		ul{
+			& li a{
+				color:$white;
+				display: inline-block;
+				line-height: 1.5em;
+				cursor:pointer;
+				margin-top: 15px;
+				font-size: 14px;
+				text-decoration:none;
+			}
 		}
 }
 
-.sec-5{
-	
+.footer-photo{
+  height: 200px;
+  width: 286px;
 }
 
-
-/* SECCION 4: LATEST NEWS */
-
-
+footer{
+	background-color:#222533;
+	width:100%;
+	height:40px;
+}
